@@ -1,0 +1,184 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imag/utlimo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*HEADER*/
+
+header{
+    padding: 30px;
+    text-align: center;
+    
+}
+.cabecera {
+    background-color: rgb(252, 244, 133);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+.cabecera h6{
+    padding: 5px;
+    margin: 10px 20px;
+}
+
+#container{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px; 
+}
+
+h1{
+    font-family:cursive;
+    font-size: xx-large;
+    color:rgb(33, 15, 135);
+}
+
+figure .blockquote{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(12, 15, 15);
+}
+
+figure .blockquote-footer{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*NAV*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+    
+ nav .nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 14px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+nav .nav-link-nav{
+    text-decoration: none;
+    color: rgb(87, 32, 236);
+    padding: 14px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .btn-secondary{
+    background-color: rgb(237, 237, 97);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+
+
+
+/*BICICLETAS GRID*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 30px;
+    background-color: beige;
+    padding: 20px;
+}
+
+h3{
+    padding: 20px;
+    font-size: x-large;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .tam{
+     padding: 20px;
+    color: darkmagenta;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+.item{
+    text-decoration: none;
+    color: darkslategray;
+    font-family: inherit;
+
+}
+
+/*Grid Rodados*/
+section{
+    flex: 70%;
+    background-color: rgb(233, 231, 131);
+    padding: 20px;
+}
+.grid-container{
+    display: grid;
+    background-color: antiquewhite;
+    grid-template-columns: 250px auto;
+    grid-template-rows: 220px 220px 220px 220px 220px;
+    align-content: center;
+}
+.grid-container div{
+    background-color: cornsilk;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    border: 1px solid rgb(207, 204, 25)
+}
+
+.img-box2 imag{
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item1 h4{
+    padding: 20px;
+    color: darkblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.number{
+    font-size: larger;
+    margin: 20px;
+    background-color: rgb(177, 219, 205);  
+}
+
+/*FOOTER*/
+footer{
+    padding:15px;
+    background-color: rgb(252, 252, 103);
+}
+.container1 ul li{
+    padding: 5px;
+    margin-left: 60px;
+    
+}
+
+li a{
+    color: black;
+}
+
+i{
+    color: rgb(252, 252, 103);
+}
+
+
+@media screen and (max-width:700px) {
+    nav .row{
+        flex-direction: column;
+    }
+}
+

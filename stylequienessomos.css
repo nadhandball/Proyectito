@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(imag/grande.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+
+
+/*NAV*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+    
+ nav .nav-link{
+    text-decoration: none;
+    color: rgb(68, 233, 137);
+    padding: 14px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+nav .nav-link-nav{
+    text-decoration: none;
+    color: rgb(12, 27, 27);
+    padding: 14px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .btn-secondary{
+    background-color: rgb(187, 187, 54);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.cabecera {
+    background-color: rgb(224, 227, 235);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif     
+
+}
+.blockquote p {
+    color: rgb(212, 245, 232);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+figure .blockquote-footer {
+    color:rgb(250, 243, 233)
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color:rgb(250, 244, 55);
+}
+
+h2{
+    padding: 5px 20px;
+    color: rgb(250, 246, 21);
+
+}
+
+h5{
+    padding: 5px 20px;
+    
+}
+
+.parrafo {
+    width: 540px;
+    display: flex;
+    height:440px;
+    padding: 10px 20px;
+    font-size: 19px;
+    line-height: 1.5;
+    float: left;
+    }
+
+p{
+    color: rgb(192, 245, 122);
+}
+
+.parrafo imag{
+    width: 310px;
+}
+
+.forma-titulo {
+    background: beige;
+}
+
+/*FOOTER*/
+footer{
+    padding:15px;
+    background-color: rgb(252, 252, 103);
+}
+.container1 ul li{
+    padding: 5px;
+    margin-left: 60px;
+    
+}
+
+li a{
+    color: black;
+}
+
+

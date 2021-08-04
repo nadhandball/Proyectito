@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(imag/utlimo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+/*HEADER*/
+
+header{
+    padding: 30px;
+    text-align: center;
+    
+}
+.cabecera {
+    background-color: rgb(252, 244, 133);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+.cabecera h6{
+    padding: 5px;
+    margin: 10px 20px;
+}
+
+#container{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px; 
+}
+
+h1{
+    font-family:cursive;
+    font-size: xx-large;
+    color:rgb(33, 15, 135);
+}
+
+figure .blockquote{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(12, 15, 15);
+}
+
+figure .blockquote-footer{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*NAV*/
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+    
+ nav .nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 14px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+nav .nav-link-nav{
+    text-decoration: none;
+    color: rgb(87, 32, 236);
+    padding: 14px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav .btn-secondary{
+    background-color: rgb(237, 237, 97);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/*POLITICA DEVOLUCION*/
+h4{
+    padding: 25px;
+}
+p{
+    margin-left: 30px;
+}
+
+
+
+p{
+    color: rgb(19, 36, 37);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+/*FOOTER*/
+footer{
+    padding:15px;
+    background-color: rgb(252, 252, 103);
+}
+.container1 ul li{
+    padding: 5px;
+    margin-left: 60px;
+ 
+}
+
+li a{
+    color: black;
+}
+
